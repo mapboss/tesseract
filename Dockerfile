@@ -1,6 +1,6 @@
 # Dockerfile for local Travis build test
 
-FROM ubuntu
+FROM ubuntu:16.04
 MAINTAINER Ian Blenke <ian@blenke.com>
 
 RUN apt-get update
